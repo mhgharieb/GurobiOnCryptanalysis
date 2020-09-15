@@ -1,0 +1,60 @@
+
+Gurobi 9.0.2 (linux64) logging started Sun Sep 13 13:12:10 2020
+
+Changed value of parameter LogFile to Log80_cores.log
+   Prev:   Default: 
+Changed value of parameter Threads to 80
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIRCuts to 2
+   Prev: -1  Min: -1  Max: 2  Default: -1
+Changed value of parameter CliqueCuts to 2
+   Prev: -1  Min: -1  Max: 2  Default: -1
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (linux64)
+Optimize a model with 10882 rows, 38880 columns and 175220 nonzeros
+Model fingerprint: 0x87fb94b0
+Variable types: 0 continuous, 38880 integer (38880 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 1039 rows and 5026 columns
+Presolve time: 0.39s
+Presolved: 9843 rows, 33854 columns, 154727 nonzeros
+Variable types: 0 continuous, 33854 integer (33854 binary)
+
+Root relaxation: objective 1.000000e+00, 2666 iterations, 0.09 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0  474          -    1.00000      -     -    1s
+     0     0    1.00000    0  582          -    1.00000      -     -    2s
+     0     0    1.00000    0  558          -    1.00000      -     -    2s
+     0     0    1.00000    0  312          -    1.00000      -     -    3s
+     0     0    1.00000    0  312          -    1.00000      -     -    3s
+     0     0    1.00000    0  190          -    1.00000      -     -    5s
+     0     0    1.00000    0  270          -    1.00000      -     -    5s
+     0     0    1.00000    0  157          -    1.00000      -     -    6s
+     0     0    1.00000    0  263          -    1.00000      -     -    6s
+     0     0    1.00000    0  212          -    1.00000      -     -    7s
+     0     0    1.00000    0  324          -    1.00000      -     -    7s
+     0     0 1.000e+100    0  165          - infeasible      -     -    8s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 120
+  Clique: 32
+  MIR: 213
+  StrongCG: 16
+  Inf proof: 2
+  Zero half: 14
+  RLT: 20
+
+Explored 1 nodes (197161 simplex iterations) in 8.33 seconds
+Thread count was 80 (of 80 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -

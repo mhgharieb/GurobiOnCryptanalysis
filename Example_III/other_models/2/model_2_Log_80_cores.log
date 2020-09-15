@@ -1,0 +1,48 @@
+
+Gurobi 9.0.2 (linux64) logging started Mon Sep 14 06:51:42 2020
+
+Changed value of parameter LogFile to model_2_Log_80_cores.log
+   Prev:   Default: 
+Changed value of parameter Threads to 80
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (linux64)
+Optimize a model with 10839 rows, 38880 columns and 175177 nonzeros
+Model fingerprint: 0x1a021a8f
+Variable types: 0 continuous, 38880 integer (38880 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 913 rows and 3837 columns
+Presolve time: 0.49s
+Presolved: 9926 rows, 35043 columns, 157286 nonzeros
+Variable types: 0 continuous, 35043 integer (35043 binary)
+
+Root relaxation: objective 1.000000e+00, 2433 iterations, 0.07 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0  490          -    1.00000      -     -    1s
+     0     0    1.00000    0  601          -    1.00000      -     -    2s
+     0     0    1.00000    0  578          -    1.00000      -     -    2s
+     0     0 1.000e+100    0  255          - infeasible      -     -    4s
+
+Cutting planes:
+  Gomory: 43
+  Cover: 169
+  Implied bound: 1
+  Clique: 14
+  MIR: 144
+  StrongCG: 21
+  Zero half: 34
+  RLT: 18
+
+Explored 1 nodes (47730 simplex iterations) in 4.05 seconds
+Thread count was 80 (of 80 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
