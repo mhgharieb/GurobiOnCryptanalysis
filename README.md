@@ -1,6 +1,6 @@
 
 # A cautionary note on the use of  Gurobi for cryptanalysis
-This is the accompanying code for the article "A cautionary note on the use of  Gurobi for cryptanalysis". It consists of the code of the four examples mentioned in the report.
+This is the accompanying code for the article "[A cautionary note on the use of  Gurobi for cryptanalysis](https://eprint.iacr.org/2020/1112)". It consists of the code of the four examples mentioned in the report.
 ## Dependancies
 [Gurobi](https://www.gurobi.com/) `9.0.2 build v9.0.2rc0 (linux64)`
 
